@@ -4,11 +4,11 @@ const NativeUI = require('NativeUI');
 const Textures = require('Textures');
 const Materials = require('Materials');
 
-const lutTex1 = Textures.get('lut1');
-const lutTex2 = Textures.get('lut2');
-const lutTex3 = Textures.get('lut3');
-const lutTex4 = Textures.get('lut4');
-const lutTex5 = Textures.get('lut5');
+const lutTex1 = Textures.get('deuteranopia_corrector');
+const lutTex2 = Textures.get('protanopia_corrector');
+const lutTex3 = Textures.get('tritanopia_corrector');
+const lutTex4 = Textures.get('deuteranopia_simulator');
+const lutTex5 = Textures.get('protanopia_simulator');
 
 const baseMat = Materials.get('baseMaterial');
 const lut2Mat = Materials.get('lut2Mat');
